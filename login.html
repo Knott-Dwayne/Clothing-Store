@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content='width=device-width, initial-scale=1'>
+    <title>Login</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row col-12" id="header">
+            HAUS OF KNOTT
+        </div>
+        <div class="row" id="content">
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="loginForm">
+
+                <form>
+                    <label for="uname" class="col-form-label">Username:</label>
+                    <input type="text" placeholder="username" class="form-control" id="uname" name="uname" required/>"
+                    <label for="passwd" class="col-form-label">Password:</label>
+                    <input type="password" class ="form-control" id="passwd" name ="passwd" required/>
+                    <button type="button" class="form-control mt-3 btn-primary" onclick="authenticate()">Login</button>
+                </form>
+
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </div>
+
+    <script src='js/bootstrap.bundle.js'></script>
+    <script src='js/main.js'></script>
+    <script src='js/clothes.js'></script>
+    <script src='js/jsEvents.js'></script>
+
+</body>
+</html>
